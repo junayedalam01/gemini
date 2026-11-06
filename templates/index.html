@@ -114,11 +114,31 @@
         button:hover {
             background-color: #0056b3;
         }
+        .social-links {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 0.3rem;
+}
+.social-links a {
+    color: var(--user-bubble);
+    text-decoration: none;
+    margin: 0 0.4rem;
+}
+.social-links a:hover {
+    text-decoration: underline;
+}
     </style>
 </head>
 <body>
 
-    <header>Gemini AI Assistant </header>
+   <header>
+    Gemini AI Assistant
+    <div class="social-links">
+        <!-- <a href="https://instagram.com/YOUR_ID" target="_blank" rel="noopener">Instagram: @YOUR_ID</a> -->
+        <a href="https://twitter.com/junayedalam01" target="_blank" rel="noopener">X: @YOUR_ID</a>
+        <a href="https://github.com/junayedalam01" target="_blank" rel="noopener">GitHub: YOUR_ID</a>
+    </div>
+</header>
 
     <div class="chat-container" id="chatContainer">
         <!-- Display user prompt if it exists -->
